@@ -8,36 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var colors = ["red", "green", "blue"]
-    @State private var selectedColor = 0
-    @State private var additionalSettings = false  // для toggle
-    
-    
+    @State private var showingAlert = false
+
     var body: some View {
-        NavigationView {
-            Form {
-                Section(header: Text("Colors")) {
-                    Picker(selection: $selectedColor) {
-                        ForEach(0..<colors.count) {
-                            Text(colors[$0])
-                        }
-                    } label: {
-                        Text("Select a color")
-                    }
-                .pickerStyle(.segmented)
-                }
-                
-                Toggle(isOn: $additionalSettings) {
-                    Text("Settings")
-                }
-                Button {
-                    print("action")
-                } label: {
-                    Text("Save changes")
-                }
-                .disabled(!additionalSettings)
-            }
-            .navigationTitle("Settings")
+        Button {
+            showingAlert = true
+        } label: {
+            Text("Show action sheet")
+        }
+        .actionSheet(isPresented: $showingAlert) {
+            ActionSheet(title: Text("title"),
+                        message: Text("message"),
+                        buttons: [.default(Text("OK")),
+                                  .cancel(),
+                                  .destructive(Text("delete"))])
         }
     }
 }
@@ -47,6 +31,72 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+/*
+ // 16.2 Action sheet
+ 
+ struct ContentView: View {
+     @State private var showingAlert = false
+
+     var body: some View {
+         Button {
+             showingAlert = true
+         } label: {
+             Text("Show action sheet")
+         }
+         .actionSheet(isPresented: $showingAlert) {
+             ActionSheet(title: Text("title"),
+                         message: Text("message"),
+                         buttons: [.default(Text("OK")),
+                                   .cancel(),
+                                   .destructive(Text("delete"))])
+         }
+     }
+ }
+
+ 
+ */
+
+
+/*
+ // 16.1 Alerts. Action sheet.
+ 
+ struct ContentView: View {
+     @State private var showingAlert1 = false
+     @State private var showingAlert2 = false
+     
+     // https://www.hackingwithswift.com/quick-start/swiftui/how-to-show-an-alert
+     var body: some View {
+         HStack {
+             Button {
+                 showingAlert1 = true
+             } label: {
+                 Text("Show Alert 1")
+             }
+             .alert(isPresented: $showingAlert1) {
+                 Alert(title: Text("title1"),
+                       message: Text("message1"),
+                       dismissButton: .cancel()
+                 )
+             }
+             
+             Button {
+                 showingAlert2 = true
+             } label: {
+                 Text("Show Alert 2")
+             }
+             .alert(isPresented: $showingAlert2) {
+                 Alert(title: Text("title2"),
+                       message: Text("message2"),
+                       dismissButton: .cancel()
+                 )
+             }
+         }
+     }
+ }
+ 
+ */
+
 
 /*
  // 15 - Form. Это контейнер
