@@ -7,22 +7,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State private var showingAlert = false
 
+struct ContentView: View {
     var body: some View {
-        Button {
-            showingAlert = true
-        } label: {
-            Text("Show action sheet")
-        }
-        .actionSheet(isPresented: $showingAlert) {
-            ActionSheet(title: Text("title"),
-                        message: Text("message"),
-                        buttons: [.default(Text("OK")),
-                                  .cancel(),
-                                  .destructive(Text("delete"))])
-        }
+        Text("Hello")
+            
     }
 }
 
@@ -31,6 +20,128 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+/*
+ // 18  @ObservedObject / @Published / @EnvironmentObject
+ 
+ 
+ */
+
+
+/*
+ // 17.3 Modifiers. Own modifier
+ 
+ struct CustomModifier: ViewModifier {
+     func body(content: Content) -> some View {
+         content
+             .font(.largeTitle)
+             .background(Color.green)
+             .padding()
+             .foregroundColor(.black)
+     }
+ }
+
+ extension View {
+     func customM() -> some View {
+         self.modifier(CustomModifier())
+     }
+ }
+
+ struct ContentView: View {
+     var body: some View {
+         Text("Hello")
+             .customM()
+     }
+ }
+
+ struct ContentView_Previews: PreviewProvider {
+     static var previews: some View {
+         ContentView()
+     }
+ }
+
+ 
+ */
+
+
+/*
+ // 17.2 Modifiers. DRY
+ 
+ struct CustomText: View {
+     var name: String
+     
+     var body: some View {
+         Text(name)
+             .font(.largeTitle)
+             .padding()
+             .foregroundColor(.red)
+             .background(Color.green)
+     }
+ }
+
+ struct ContentView: View {
+     var body: some View {
+         VStack(spacing: 20) {
+             CustomText(name: "Fisrt")
+             CustomText(name: "Second")
+         }
+     }
+ }
+ 
+ */
+
+
+/*
+ // 17.1 Modifiers.
+ 
+ struct ContentView: View {
+     @State private var useGreenText = false
+
+     var body: some View {
+         Button("Hello") {
+             self.useGreenText.toggle()
+         }.foregroundColor(useGreenText ? .green : .blue)
+     }
+ }
+ 
+ */
+
+
+/*
+ // transition(.opacity)
+
+ struct ContentView: View {
+ @State private var showMessage = false
+
+ var body: some View {
+     ZStack {
+         Color.yellow.zIndex(0)
+
+         VStack {
+             Spacer()
+             Button(action: {
+                 withAnimation(.easeOut(duration: 3)) {
+                     self.showMessage.toggle()
+                 }
+             }) {
+                 Text("SHOW MESSAGE")
+             }
+         }.zIndex(1)
+
+         if showMessage {
+             Text("HELLO WORLD!")
+                 .transition(.opacity)
+                 .zIndex(2)
+         }
+     }
+ }
+ }
+
+ 
+ 
+ */
+
 
 /*
  // 16.2 Action sheet
