@@ -16,6 +16,8 @@
 		74EA913527490C9800A8A0B8 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA913427490C9800A8A0B8 /* UserSettings.swift */; };
 		74EA91382749106C00A8A0B8 /* Lesson19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA91372749106C00A8A0B8 /* Lesson19.swift */; };
 		74EA913B27491ADD00A8A0B8 /* Lesson20View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA913A27491ADD00A8A0B8 /* Lesson20View.swift */; };
+		74EA914027491FFF00A8A0B8 /* PracticeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA913F27491FFF00A8A0B8 /* PracticeContentView.swift */; };
+		74EA9142274923A900A8A0B8 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA9141274923A900A8A0B8 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		74EA913427490C9800A8A0B8 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		74EA91372749106C00A8A0B8 /* Lesson19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson19.swift; sourceTree = "<group>"; };
 		74EA913A27491ADD00A8A0B8 /* Lesson20View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson20View.swift; sourceTree = "<group>"; };
+		74EA913F27491FFF00A8A0B8 /* PracticeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeContentView.swift; sourceTree = "<group>"; };
+		74EA9141274923A900A8A0B8 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				74C6C6782747842900C2376B /*  lesson18-PropertyWrappers */,
 				74EA91362749105300A8A0B8 /* Lesson19-NavigationViewAndSheets */,
 				74EA913927491A8C00A8A0B8 /* lesson20-UserDefaults */,
+				74EA913C27491FBD00A8A0B8 /* Practice3 */,
 				74D67AA627428200005A366C /* Assets.xcassets */,
 				74D67AA827428200005A366C /* Preview Content */,
 			);
@@ -104,6 +109,15 @@
 				74EA913A27491ADD00A8A0B8 /* Lesson20View.swift */,
 			);
 			path = "lesson20-UserDefaults";
+			sourceTree = "<group>";
+		};
+		74EA913C27491FBD00A8A0B8 /* Practice3 */ = {
+			isa = PBXGroup;
+			children = (
+				74EA913F27491FFF00A8A0B8 /* PracticeContentView.swift */,
+				74EA9141274923A900A8A0B8 /* AddView.swift */,
+			);
+			path = Practice3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +192,11 @@
 			files = (
 				74D61B162743F98700E341A4 /* TipsApp.swift in Sources */,
 				74D67AA5274281EF005A366C /* ContentView.swift in Sources */,
+				74EA9142274923A900A8A0B8 /* AddView.swift in Sources */,
 				74D67AA3274281EF005A366C /* LessonsSwiftUIApp.swift in Sources */,
 				74EA91382749106C00A8A0B8 /* Lesson19.swift in Sources */,
 				74EA913527490C9800A8A0B8 /* UserSettings.swift in Sources */,
+				74EA914027491FFF00A8A0B8 /* PracticeContentView.swift in Sources */,
 				74EA913B27491ADD00A8A0B8 /* Lesson20View.swift in Sources */,
 				74C6C67A2747844100C2376B /* Lesson18View.swift in Sources */,
 			);
