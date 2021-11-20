@@ -9,9 +9,13 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @State private var user = User()
+    
     var body: some View {
-        Text("Hello")
-            
+        NavigationView {
+            NavigationLink("\(user.firstName)", destination: Lesson18View())
+            Spacer()
+        }
     }
 }
 
@@ -23,7 +27,7 @@ struct ContentView_Previews: PreviewProvider {
 
 
 /*
- // 18  @ObservedObject / @Published / @EnvironmentObject
+ // 18  
  
  
  */
