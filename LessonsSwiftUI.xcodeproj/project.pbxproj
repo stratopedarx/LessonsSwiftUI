@@ -15,6 +15,7 @@
 		74D67AAA27428200005A366C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D67AA927428200005A366C /* Preview Assets.xcassets */; };
 		74EA913527490C9800A8A0B8 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA913427490C9800A8A0B8 /* UserSettings.swift */; };
 		74EA91382749106C00A8A0B8 /* Lesson19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA91372749106C00A8A0B8 /* Lesson19.swift */; };
+		74EA913B27491ADD00A8A0B8 /* Lesson20View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA913A27491ADD00A8A0B8 /* Lesson20View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		74D67AA927428200005A366C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74EA913427490C9800A8A0B8 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		74EA91372749106C00A8A0B8 /* Lesson19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson19.swift; sourceTree = "<group>"; };
+		74EA913A27491ADD00A8A0B8 /* Lesson20View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson20View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,13 +42,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74C6C6782747842900C2376B /*  lesson18 */ = {
+		74C6C6782747842900C2376B /*  lesson18-PropertyWrappers */ = {
 			isa = PBXGroup;
 			children = (
 				74C6C6792747844100C2376B /* Lesson18View.swift */,
 				74EA913427490C9800A8A0B8 /* UserSettings.swift */,
 			);
-			path = " lesson18";
+			path = " lesson18-PropertyWrappers";
 			sourceTree = "<group>";
 		};
 		74D67A96274281EF005A366C = {
@@ -71,8 +73,9 @@
 				74D67AA2274281EF005A366C /* LessonsSwiftUIApp.swift */,
 				74D67AA4274281EF005A366C /* ContentView.swift */,
 				74D61B152743F98700E341A4 /* TipsApp.swift */,
-				74C6C6782747842900C2376B /*  lesson18 */,
-				74EA91362749105300A8A0B8 /* Lesson19 */,
+				74C6C6782747842900C2376B /*  lesson18-PropertyWrappers */,
+				74EA91362749105300A8A0B8 /* Lesson19-NavigationViewAndSheets */,
+				74EA913927491A8C00A8A0B8 /* lesson20-UserDefaults */,
 				74D67AA627428200005A366C /* Assets.xcassets */,
 				74D67AA827428200005A366C /* Preview Content */,
 			);
@@ -87,12 +90,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		74EA91362749105300A8A0B8 /* Lesson19 */ = {
+		74EA91362749105300A8A0B8 /* Lesson19-NavigationViewAndSheets */ = {
 			isa = PBXGroup;
 			children = (
 				74EA91372749106C00A8A0B8 /* Lesson19.swift */,
 			);
-			path = Lesson19;
+			path = "Lesson19-NavigationViewAndSheets";
+			sourceTree = "<group>";
+		};
+		74EA913927491A8C00A8A0B8 /* lesson20-UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				74EA913A27491ADD00A8A0B8 /* Lesson20View.swift */,
+			);
+			path = "lesson20-UserDefaults";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				74D67AA3274281EF005A366C /* LessonsSwiftUIApp.swift in Sources */,
 				74EA91382749106C00A8A0B8 /* Lesson19.swift in Sources */,
 				74EA913527490C9800A8A0B8 /* UserSettings.swift in Sources */,
+				74EA913B27491ADD00A8A0B8 /* Lesson20View.swift in Sources */,
 				74C6C67A2747844100C2376B /* Lesson18View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
