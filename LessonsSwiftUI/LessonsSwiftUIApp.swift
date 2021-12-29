@@ -13,11 +13,13 @@ struct LessonsSwiftUIApp: App {
         WindowGroup {
 //            ContentView()
 //            TipsApp()
-//            Lesson18View()
-//            Lesson19()
-//            Lesson20View()
+//            Lesson18View()  // property wrappers
+//            Lesson19()  // NavigationView and sheets
+//            Lesson20View()  // UserDefails, Codable
 //            PracticeContentView()  // мои расходы
-            Lesson21_Visual()
+//            Lesson21_Visual()  // всякие визуальные эффекты
+//            Lesson22_Animation()  // animations 1
+            Lesson22_1()  // animations 2. добавляем анимацию к байндинг свойству. Это implicit animations
             
         }
     }
