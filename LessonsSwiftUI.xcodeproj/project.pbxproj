@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		74BA9E01277C436F00780F75 /* Lesson21-Visual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA9E00277C436F00780F75 /* Lesson21-Visual.swift */; };
 		74BA9E04277C7E5300780F75 /* Lesson22-Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA9E03277C7E5300780F75 /* Lesson22-Animation.swift */; };
+		74BA9E07277CA5CC00780F75 /* Lesson23-CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA9E06277CA5CC00780F75 /* Lesson23-CustomTabBar.swift */; };
 		74C6C67A2747844100C2376B /* Lesson18View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6C6792747844100C2376B /* Lesson18View.swift */; };
 		74D61B162743F98700E341A4 /* TipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D61B152743F98700E341A4 /* TipsApp.swift */; };
 		74D67AA3274281EF005A366C /* LessonsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D67AA2274281EF005A366C /* LessonsSwiftUIApp.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		74BA9E00277C436F00780F75 /* Lesson21-Visual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson21-Visual.swift"; sourceTree = "<group>"; };
 		74BA9E03277C7E5300780F75 /* Lesson22-Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson22-Animation.swift"; sourceTree = "<group>"; };
+		74BA9E06277CA5CC00780F75 /* Lesson23-CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson23-CustomTabBar.swift"; sourceTree = "<group>"; };
 		74C6C6792747844100C2376B /* Lesson18View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson18View.swift; sourceTree = "<group>"; };
 		74D61B152743F98700E341A4 /* TipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsApp.swift; sourceTree = "<group>"; };
 		74D67A9F274281EF005A366C /* LessonsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,14 @@
 			path = "Lesson22-Animation";
 			sourceTree = "<group>";
 		};
+		74BA9E05277CA5A100780F75 /* Lesson23-CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				74BA9E06277CA5CC00780F75 /* Lesson23-CustomTabBar.swift */,
+			);
+			path = "Lesson23-CustomTabBar";
+			sourceTree = "<group>";
+		};
 		74C6C6782747842900C2376B /*  lesson18-PropertyWrappers */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +107,13 @@
 				74D67AA2274281EF005A366C /* LessonsSwiftUIApp.swift */,
 				74D67AA4274281EF005A366C /* ContentView.swift */,
 				74D61B152743F98700E341A4 /* TipsApp.swift */,
+				74EA913C27491FBD00A8A0B8 /* Practice3 */,
 				74C6C6782747842900C2376B /*  lesson18-PropertyWrappers */,
 				74EA91362749105300A8A0B8 /* Lesson19-NavigationViewAndSheets */,
 				74EA913927491A8C00A8A0B8 /* lesson20-UserDefaults */,
 				74BA9DFF277C435000780F75 /* Lesson21-Visual */,
 				74BA9E02277C7E2700780F75 /* Lesson22-Animation */,
-				74EA913C27491FBD00A8A0B8 /* Practice3 */,
+				74BA9E05277CA5A100780F75 /* Lesson23-CustomTabBar */,
 				74D67AA627428200005A366C /* Assets.xcassets */,
 				74D67AA827428200005A366C /* Preview Content */,
 			);
@@ -223,6 +234,7 @@
 				74EA914027491FFF00A8A0B8 /* PracticeContentView.swift in Sources */,
 				74EA913B27491ADD00A8A0B8 /* Lesson20View.swift in Sources */,
 				74C6C67A2747844100C2376B /* Lesson18View.swift in Sources */,
+				74BA9E07277CA5CC00780F75 /* Lesson23-CustomTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
