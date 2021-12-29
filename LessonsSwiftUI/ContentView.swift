@@ -432,7 +432,7 @@ struct ContentView_Previews: PreviewProvider {
 
  // свифт должен уметь определять какая структура перед ним.
  // подписываем под протокол Identifiable
- // что бы назначить уникальный идентификатор: var if = UUID()
+ // что бы назначить уникальный идентификатор: var id = UUID()
  struct Restaurant: Identifiable {
      var id = UUID()
      var name: String
@@ -529,9 +529,9 @@ struct ContentView_Previews: PreviewProvider {
  */
 
 
-/*
+
  // 10. Stepper
- 
+ /*
  struct ContentView: View {
      @State private var age = 18
      
@@ -548,8 +548,8 @@ struct ContentView_Previews: PreviewProvider {
          .padding()
      }
  }
- 
  */
+
 
 
 /*

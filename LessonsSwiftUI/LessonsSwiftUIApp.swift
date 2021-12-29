@@ -16,7 +16,8 @@ struct LessonsSwiftUIApp: App {
 //            Lesson18View()
 //            Lesson19()
 //            Lesson20View()
-            PracticeContentView()  // мои расходы
+//            PracticeContentView()  // мои расходы
+            Lesson21_Visual()
             
         }
     }
