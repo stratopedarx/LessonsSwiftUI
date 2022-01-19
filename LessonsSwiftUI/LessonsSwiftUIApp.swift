@@ -20,8 +20,8 @@ struct LessonsSwiftUIApp: App {
 //            Lesson21_Visual()  // всякие визуальные эффекты
 //            Lesson22_Animation()  // animations 1
 //            Lesson22_1()  // animations 2. добавляем анимацию к байндинг свойству. Это implicit animations
-            Lesson23_CustomTabBar()
-            
+//            Lesson23_CustomTabBar()
+            Lesson24_RegistrationPage()
         }
     }
 }

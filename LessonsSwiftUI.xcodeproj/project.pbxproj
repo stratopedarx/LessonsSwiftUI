@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748965EE279699F100C9A93E /* Lesson24-RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748965ED279699F100C9A93E /* Lesson24-RegistrationPage.swift */; };
 		74BA9E01277C436F00780F75 /* Lesson21-Visual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA9E00277C436F00780F75 /* Lesson21-Visual.swift */; };
 		74BA9E04277C7E5300780F75 /* Lesson22-Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA9E03277C7E5300780F75 /* Lesson22-Animation.swift */; };
 		74BA9E07277CA5CC00780F75 /* Lesson23-CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA9E06277CA5CC00780F75 /* Lesson23-CustomTabBar.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		748965ED279699F100C9A93E /* Lesson24-RegistrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson24-RegistrationPage.swift"; sourceTree = "<group>"; };
 		74BA9E00277C436F00780F75 /* Lesson21-Visual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson21-Visual.swift"; sourceTree = "<group>"; };
 		74BA9E03277C7E5300780F75 /* Lesson22-Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson22-Animation.swift"; sourceTree = "<group>"; };
 		74BA9E06277CA5CC00780F75 /* Lesson23-CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson23-CustomTabBar.swift"; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		748965EC2796994F00C9A93E /* Lesson24-RegistrationPage */ = {
+			isa = PBXGroup;
+			children = (
+				748965ED279699F100C9A93E /* Lesson24-RegistrationPage.swift */,
+			);
+			path = "Lesson24-RegistrationPage";
+			sourceTree = "<group>";
+		};
 		74BA9DFF277C435000780F75 /* Lesson21-Visual */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 				74BA9DFF277C435000780F75 /* Lesson21-Visual */,
 				74BA9E02277C7E2700780F75 /* Lesson22-Animation */,
 				74BA9E05277CA5A100780F75 /* Lesson23-CustomTabBar */,
+				748965EC2796994F00C9A93E /* Lesson24-RegistrationPage */,
 				74D67AA627428200005A366C /* Assets.xcassets */,
 				74D67AA827428200005A366C /* Preview Content */,
 			);
@@ -234,6 +245,7 @@
 				74EA914027491FFF00A8A0B8 /* PracticeContentView.swift in Sources */,
 				74EA913B27491ADD00A8A0B8 /* Lesson20View.swift in Sources */,
 				74C6C67A2747844100C2376B /* Lesson18View.swift in Sources */,
+				748965EE279699F100C9A93E /* Lesson24-RegistrationPage.swift in Sources */,
 				74BA9E07277CA5CC00780F75 /* Lesson23-CustomTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
